@@ -89,4 +89,4 @@ with gr.Blocks() as demo:
     upload_button.upload(process_uploaded_files, upload_button, combined_output)
 
 # Launch the Gradio interface with debug mode enabled
-demo.launch(debug=True)
+demo.launch(debug=True,share=True)
